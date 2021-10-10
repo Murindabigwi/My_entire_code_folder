@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+
+#title{
+    background-image: image("title-image1.jpg");
+    background-size: cover;
+}
+
+#title h1{
+    left: 5%;
+    top: 20%;
+    font-size: 100;
+    font-family: 'Grechen Fuemen', cursive;
+    font-weight: bolder;
+    position: absolute;
+    color: #E05D1F;
+}
+
+.title-paragraph{
+    font-size: 40;
+    color: #23F848;
+    position: absolute;
+    top: 35%;
+    padding: 0 20px;
+}
+

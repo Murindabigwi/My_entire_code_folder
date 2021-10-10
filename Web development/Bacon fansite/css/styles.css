@@ -1,0 +1,20 @@
+/******************* Tag selsectors*/
+
+h1{
+  color: red;
+  font-size: 150px;
+}
+p{
+  background-color: yellow;
+}
+img:hover{
+  background-color: gold;
+}
+
+/*******************Class selsectors*/
+.bacon{
+  background-color: green;
+}
+.broccoli{
+  background-color: red;
+}

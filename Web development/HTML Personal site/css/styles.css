@@ -1,0 +1,23 @@
+body{
+  background-color: orange;
+  text-align: center;
+
+}
+hr{
+  background-color: none;
+  border-style: dotted none none;
+  width: 3%;
+  border-width: 5px;
+  border-color: black;
+}
+h1{
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+h3{
+  color: red;
+}
+.tables{
+  
+  margin: 0 auto 0 auto;
+}

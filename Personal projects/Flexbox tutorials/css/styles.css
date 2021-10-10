@@ -1,0 +1,30 @@
+.home,
+.logout{
+    background-color: skyblue;
+}
+
+.search{
+    background-color: tomato;
+}
+
+
+
+.container{
+    border: 5px solid #ffcc5c;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .home{
+    margin-right: auto;
+} */
+
+/* .container > div {
+    flex: 1;
+} */
+
+.home,
+.logout{
+    flex: 1;
+}
