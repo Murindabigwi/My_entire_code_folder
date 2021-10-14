@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript tutorilas</title>
+  </head>
+  <body>
+    <script>
+      console.log("hello, world");
+
+      let a = 12;
+
+      console.log(a);
+      console.log(9 * a);
+      console.log((4 + 6 + 9) / 77);
+      let b = 7 * a;
+      console.log(b);
+
+      const max = 57;
+      var actual = max - 13;
+      var percentage = actual / max;
+      console.log(percentage);
+
+      let mystring = "123";
+      let mynum = Number(mystring);
+      console.log(typeof mynum);
+
+      let mysecondstring = toString(mynum);
+      console.log(typeof mysecondstring);
+      let song = `Fight the YOuth`;
+      console.log(typeof song);
+
+      const date = new Date().getDay();
+      console.log(date);
+
+      let day;
+
+      switch (new Date().getDay()) {
+        case 0:
+          day = "sunday";
+          break;
+        case 1:
+          day = "monday";
+          break;
+
+        case 2:
+          day = "tuesday";
+          break;
+
+        case 3:
+          day = "wednesday";
+          break;
+
+        case 4:
+          day = "thursday";
+          break;
+
+        case 5:
+          day = "friday";
+          break;
+        case 6:
+          day = "saturday";
+          break;
+      }
+
+      console.log(day);
+      //    Script for login checking
+
+      //   let userName = prompt("Who's there?", "");
+
+      //   if (userName === "Admin") {
+      //     let pass = prompt("Password?", "");
+
+      //     if (pass === "TheMaster") {
+      //       alert("Welcome!");
+      //     } else if (pass === "" || pass === null) {
+      //       alert("Canceled");
+      //     } else {
+      //       alert("Wrong password");
+      //     }
+      //   } else if (userName === "" || userName === null) {
+      //     alert("Canceled");
+      //   } else {
+      //     alert("I don't know you");
+      //   }
+    </script>
+  </body>
+</html>
