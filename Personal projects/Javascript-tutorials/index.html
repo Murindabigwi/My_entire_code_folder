@@ -7,165 +7,232 @@
   </head>
   <body>
     <script>
-      console.log("hello, world");
+            console.log("hello, world");
 
-      let a = 12;
+            let a = 12;
 
-      console.log(a);
-      console.log(9 * a);
-      console.log((4 + 6 + 9) / 77);
-      let b = 7 * a;
-      console.log(b);
+            console.log(a);
+            console.log(9 * a);
+            console.log((4 + 6 + 9) / 77);
+            let b = 7 * a;
+            console.log(b);
 
-      const max = 57;
-      var actual = max - 13;
-      var percentage = actual / max;
-      console.log(percentage);
+            const max = 57;
+            var actual = max - 13;
+            var percentage = actual / max;
+            console.log(percentage);
 
-      let mystring = "123";
-      let mynum = Number(mystring);
-      console.log(typeof mynum);
+            let mystring = "123";
+            let mynum = Number(mystring);
+            console.log(typeof mynum);
 
-      let mysecondstring = toString(mynum);
-      console.log(typeof mysecondstring);
-      let song = `Fight the YOuth`;
-      console.log(typeof song);
+            let mysecondstring = toString(mynum);
+            console.log(typeof mysecondstring);
+            let song = `Fight the YOuth`;
+            console.log(typeof song);
 
-      const date = new Date().getDay();
-      console.log(date);
+            const date = new Date().getDay();
+            console.log(date);
 
-      let day;
+            let day;
 
-      switch (new Date().getDay()) {
-        case 0:
-          day = "sunday";
-          break;
-        case 1:
-          day = "monday";
-          break;
+            switch (new Date().getDay()) {
+              case 0:
+                day = "sunday";
+                break;
+              case 1:
+                day = "monday";
+                break;
 
-        case 2:
-          day = "tuesday";
-          break;
+              case 2:
+                day = "tuesday";
+                break;
 
-        case 3:
-          day = "wednesday";
-          break;
+              case 3:
+                day = "wednesday";
+                break;
 
-        case 4:
-          day = "thursday";
-          break;
+              case 4:
+                day = "thursday";
+                break;
 
-        case 5:
-          day = "friday";
-          break;
-        case 6:
-          day = "saturday";
-          break;
+              case 5:
+                day = "friday";
+                break;
+              case 6:
+                day = "saturday";
+                break;
+            }
+
+            console.log(day);
+
+            let animal = "dog";
+
+            switch (animal) {
+              case "cow":
+              case "pig":
+              case "giraffe":
+              case "dog":
+
+              case "snake":
+                console.log("This animal will go on noah's ark");
+                break;
+
+              case "spoon":
+                console.log("This is not an animal");
+                break;
+
+              case "dinasour":
+                console.log("This animal will not go on noah's ark");
+                break;
+              default:
+                console.log("This animal will not go on noah's ark");
+            }
+
+            // Set the student's grade
+            const grade = 87;
+
+            switch (true) {
+              // If score is 90 or greater
+              case grade >= 90:
+                console.log("A");
+                break;
+              // If score is 80 or greater
+              case grade >= 80:
+                console.log("B");
+                break;
+              // If score is 70 or greater
+              case grade >= 70:
+                console.log("C");
+                break;
+              // If score is 60 or greater
+              case grade >= 60:
+                console.log("D");
+                break;
+              // Anything 59 or below is failing
+              default:
+                console.log("F");
+            }
+
+            const month = new Date().getMonth();
+
+            // console.log(month)
+
+            switch (month) {
+              // January, February, March
+              case 0:
+              case 1:
+              case 2:
+                console.log("Winter");
+                break;
+              // April, May, June
+              case 3:
+              case 4:
+              case 5:
+                console.log("Spring");
+                break;
+              // July, August, September
+              case 6:
+              case 7:
+              case 8:
+                console.log("Summer");
+                break;
+              // October, November, December
+              case 9:
+              case 10:
+              case 11:
+                console.log("Autumn");
+                break;
+              default:
+                console.log("Something went wrong.");
+            }
+
+            // function factorialize(num) {
+            //   if (num == 0 || num == 1) {
+            //     return 1;
+            //   } else {
+            //     return num * factorialize(num - 1);
+            //   }
+            // }
+
+            // factorialize(5);
+            // let num = 10;
+            // answer = factorialize(num);
+
+            // console.log(answer);
+
+            // function factorialize(num) {
+            //   if (num == 0 || num == 1) {
+            //     return (num = 1);
+            //   }
+            //   for (let count = num - 1; count >= 1; count--) {
+            //     num *= count;
+            //     console.log(num);
+            //   }
+
+            //   return num;
+            // }
+
+            // factorialize(10);
+
+            // let word = "A-tisket a-tasket A green and yellow basket";
+
+            // console.log(word.slice(0, 8));
+
+
+
+
+            // function truncateString(str, num) {
+            //   if (str.length > num) {
+            //     str = (str.slice(0, (num)) + ('...'))
+            //   }
+            //   else{
+            //     str = str.slice(0, (num))
+            //   }
+
+            //   // return str;
+
+            //   console.log(str);
+            // }
+            // truncateString("Peter Piper picked a peck of pickled peppers", 11);
+
+
+
+
+
+      function getIndexToIns(arr, num) {
+
+      for (let count = 1; (arr.length) > 10; count++) {
+        console.log(num);
+      }
+      
+      return num;
       }
 
-      console.log(day);
+      getIndexToIns([40, 60], 50);
 
-      let animal = "dog";
+            // const string = "Name".slice(0, 250).concat('...');
+            // console.log(string);
 
-      switch (animal) {
-        case "cow":
-        case "pig":
-        case "giraffe":
-        case "dog":
+            //    Script for login checking
 
-        case "snake":
-          console.log("This animal will go on noah's ark");
-          break;
+            //   let userName = prompt("Who's there?", "");
 
-        case "spoon":
-          console.log("This is not an animal");
-          break;
+            //   if (userName === "Admin") {
+            //     let pass = prompt("Password?", "");
 
-        case "dinasour":
-          console.log("This animal will not go on noah's ark");
-          break;
-        default:
-          console.log("This animal will not go on noah's ark");
-      }
-
-      // Set the student's grade
-      const grade = 87;
-
-      switch (true) {
-        // If score is 90 or greater
-        case grade >= 90:
-          console.log("A");
-          break;
-        // If score is 80 or greater
-        case grade >= 80:
-          console.log("B");
-          break;
-        // If score is 70 or greater
-        case grade >= 70:
-          console.log("C");
-          break;
-        // If score is 60 or greater
-        case grade >= 60:
-          console.log("D");
-          break;
-        // Anything 59 or below is failing
-        default:
-          console.log("F");
-      }
-
-      const month = new Date().getMonth();
-
-      // console.log(month)
-
-      switch (month) {
-        // January, February, March
-        case 0:
-        case 1:
-        case 2:
-          console.log("Winter");
-          break;
-        // April, May, June
-        case 3:
-        case 4:
-        case 5:
-          console.log("Spring");
-          break;
-        // July, August, September
-        case 6:
-        case 7:
-        case 8:
-          console.log("Summer");
-          break;
-        // October, November, December
-        case 9:
-        case 10:
-        case 11:
-          console.log("Autumn");
-          break;
-        default:
-          console.log("Something went wrong.");
-      }
-
-      //    Script for login checking
-
-      //   let userName = prompt("Who's there?", "");
-
-      //   if (userName === "Admin") {
-      //     let pass = prompt("Password?", "");
-
-      //     if (pass === "TheMaster") {
-      //       alert("Welcome!");
-      //     } else if (pass === "" || pass === null) {
-      //       alert("Canceled");
-      //     } else {
-      //       alert("Wrong password");
-      //     }
-      //   } else if (userName === "" || userName === null) {
-      //     alert("Canceled");
-      //   } else {
-      //     alert("I don't know you");
-      //   }
+            //     if (pass === "TheMaster") {
+            //       alert("Welcome!");
+            //     } else if (pass === "" || pass === null) {
+            //       alert("Canceled");
+            //     } else {
+            //       alert("Wrong password");
+            //     }
+            //   } else if (userName === "" || userName === null) {
+            //     alert("Canceled");
+            //   } else {
+            //     alert("I don't know you");
+            //   }
     </script>
   </body>
 </html>
