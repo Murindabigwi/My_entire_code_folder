@@ -1,30 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
     text-align: center;
-    background-color: black;
-    color:white;
+    padding: 30px;
 }
 
+.title{
+    height: 90vh;
 
-#title{
-    background-image: image("title-image1.jpg");
+    background-image: linear-gradient(to left bottom,
+    #4159d0be, #c850c0bb, #ffcd70b6) 
+    ,url(../images/title-image.jpg);
+
     background-size: cover;
+    background-position: top;
+    color:white;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-#title h1{
-    left: 5%;
-    top: 20%;
-    font-size: 100;
-    font-family: 'Grechen Fuemen', cursive;
-    font-weight: bolder;
-    position: absolute;
-    color: #E05D1F;
+
+.title{
+  text-transform: uppercase;
 }
 
-.title-paragraph{
-    font-size: 40;
-    color: #23F848;
-    position: absolute;
-    top: 35%;
-    padding: 0 20px;
+.heading-main{
+  display: block;
 }
 
+.heading-sub{
+  display: block;
+}
