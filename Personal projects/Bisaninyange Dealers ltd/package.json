@@ -1,0 +1,14 @@
+{
+  "name": "bisaninyange-dealers-ltd",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "This:sass": "node-sass sass/main.scss CSS/styles.css -w"
+  },
+  "author": "David",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
