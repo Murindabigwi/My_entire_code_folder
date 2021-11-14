@@ -138,7 +138,6 @@ body {
     display: table;
     float: both; }
   .row [class^="col-"] {
-    background-color: orangered;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
