@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  text-align: center;
   padding: 30px;
 }
 
@@ -132,7 +131,6 @@ body {
 
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -154,4 +152,21 @@ body {
   }
 }
 
+.heading-secondary{
+  margin-bottom: 8rem;
+  text-align: center;
+}
 
+.heading-tertiary{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.paragraph{
+  font-size: 1.6rem;
+  &:not(:last-child){
+    margin-bottom: 3rem;
+  }
+}
