@@ -46,7 +46,6 @@ body {
 
 .heading-sub {
   display: block;
-  display: block;
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
@@ -99,7 +98,7 @@ body {
   .row::after {
     content: "";
     display: table;
-    float: both; }
+    clear: both; }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {

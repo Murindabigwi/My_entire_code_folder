@@ -161,7 +161,7 @@ body {
   .row::after {
     content: "";
     display: table;
-    float: both; }
+    clear: both; }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
