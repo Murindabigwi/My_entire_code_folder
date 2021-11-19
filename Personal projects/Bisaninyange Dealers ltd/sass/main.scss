@@ -2,11 +2,15 @@
 @import "abstracts/varibles";
 
 
-
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
 }
+
+
 
 html {
   font-size: 62.5%;
@@ -14,6 +18,7 @@ html {
 
 body {
   padding: 30px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -107,7 +112,7 @@ body {
 }
 
 .first-section {
-  background-color: rgba(222, 217, 196, 0.822);
+  background-color: rgba(223, 221, 215, 0.932);
   padding: 25rem;
   margin-top: -20vh;
 }
@@ -168,4 +173,27 @@ body {
   &:not(:last-child){
     margin-bottom: 3rem;
   }
+}
+
+.btn-text{
+  color: #c850c0;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #c850c0;
+  padding: 3px;
+  display: inline-block;
+
+  &:hover{
+    color: white;
+    background-color: #c850c0;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+  }
+
+  &:active{
+    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
+  }
+
+
 }
