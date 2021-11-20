@@ -1,7 +1,6 @@
 @import "abstracts/mixins";
 @import "abstracts/varibles";
 
-
 *,
 *::after,
 *::before {
@@ -9,8 +8,6 @@
   padding: 0;
   box-sizing: inherit;
 }
-
-
 
 html {
   font-size: 62.5%;
@@ -30,7 +27,7 @@ body {
       hsla(304, 52%, 55%, 0.616),
       hsla(39, 100%, 72%, 0.61)
     ),
-    url(../images/title-image3.jpg);
+    url(../images/title-image.jpg);
 
   background-size: cover;
   background-position: top;
@@ -55,7 +52,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.heading-primary{
+.heading-primary {
   text-transform: uppercase;
   backface-visibility: hidden;
 }
@@ -112,7 +109,7 @@ body {
 }
 
 .first-section {
-  background-color: #F7F7F7F7;
+  background-color: #f7f7f7f7;
   padding: 25rem;
   margin-top: -20vh;
 }
@@ -144,7 +141,7 @@ body {
   @include clearfix;
 
   [class^="col-"] {
-    float : left;
+    float: left;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
@@ -156,26 +153,26 @@ body {
   }
 }
 
-.heading-secondary{
+.heading-secondary {
   margin-bottom: 8rem;
   text-align: center;
 }
 
-.heading-tertiary{
+.heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
-.paragraph{
+.paragraph {
   font-size: 1.6rem;
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 3rem;
   }
 }
 
-.btn-text{
+.btn-text {
   color: #c850c0;
   text-decoration: none;
   font-size: 1.8rem;
@@ -183,17 +180,57 @@ body {
   padding: 3px;
   display: inline-block;
 
-  &:hover{
+  &:hover {
     color: white;
     background-color: #c850c0;
     box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
     transform: translateY(-2px);
   }
 
-  &:active{
-    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
     transform: translateY(0);
   }
+}
 
+.composition {
+  position: relative;
+  &__photo {
+    width: 55%;
+    // height: 25rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
 
+    &--p1 {
+      left: 0;
+      top: -2rem;
+    }
+
+    &--p2 {
+      right: 0;
+      top: 2rem;
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 10rem;
+    }
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 20;
+      outline: 1rem solid #ffcc70;
+    }
+  }
+
+  &:hover &__photo:not(:hover) {
+    transform: scale(.95);
+}
+
+  
 }
