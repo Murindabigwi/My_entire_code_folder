@@ -1,42 +1,49 @@
-body{
-    background-color: hsl(217, 54%, 11%);
+body {
+  background-color: hsl(217, 54%, 11%);
 }
 
-p{
-  color: hsl(215, 32%, 27%);
-}
-
-.card-wrap{
-  width: 300px;
-  background-color: hsl(216, 50%, 16%);
-}
-
-.card{
-  width: 250px;
-  background-color: hsl(216, 50%, 16%);
-}
-
-.first-img{
-  width: 250px;
+p {
+  color: hsl(215, 51%, 70%);
 }
 
 h3 {
-  color:  hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
-.author{
-  color:  hsl(0, 0%, 100%);
+.card-wrap {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  margin: auto;
 }
 
+.card {
+  width: 250px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.first-img {
+  width: 250px;
+}
 
+.time{
+  display: inline-block;
+}
 
+.author {
+  color: hsl(0, 0%, 100%);
+}
 
+.author-img{
+  width: 30px;
+}
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
