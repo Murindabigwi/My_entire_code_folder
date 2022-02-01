@@ -29,8 +29,10 @@ h3 {
 }
 
 .time{
-  display: inline-block;
+  display: flex;
 }
+
+
 
 .author {
   color: hsl(0, 0%, 100%);
