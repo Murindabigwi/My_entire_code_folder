@@ -28,24 +28,34 @@ h3 {
   width: 250px;
 }
 
-.time{
-  display: flex;
-}
-
-.time >*:last-child{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
- /* .first-section{
+/* .time{
   display: flex;
 } */
 
-/* .second-section{
+/* .time >*:last-child{
   display: flex;
-  justify-content: right;
-}  */
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+ .first-section{ 
+  display: flex;
+}  
+
+  .second-section{
+  display: flex;
+}  
+
+/* .second-box{
+  margin-left: 0%;
+} */
+
+
+
+.author-section{
+  display: flex;
+  justify-content: center;
+}
 
 
 
