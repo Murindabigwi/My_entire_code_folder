@@ -28,9 +28,9 @@ h3 {
   width: 250px;
 }
 
-/* .time{
+ .time{
   display: flex;
-} */
+} 
 
 /* .time >*:last-child{
   display: flex;
@@ -39,13 +39,19 @@ h3 {
 } */
 
  .first-section{ 
-  display: flex;
+  display: flex
 }  
+.image-1{
+  padding-top: 15px;
+}
 
   .second-section{
   display: flex;
 }  
 
+.image-2{
+  padding-top: 15px;
+}
 /* .second-box{
   margin-left: 0%;
 } */
@@ -54,7 +60,6 @@ h3 {
 
 .author-section{
   display: flex;
-  justify-content: center;
 }
 
 
